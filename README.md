@@ -14,6 +14,7 @@ The integration of LLMs into ABM represents a significant step forward in the mo
 - **Collaborative problem-solving**
 - **Simulation of human-like reasoning**
 - **Dynamic decision-making under uncertainty**
+- **Inter-agent communication via forums to share insights**
 
 The development of Mesa-LLM will make it easier to incorporate **LLMs into agent-based models**, allowing researchers to explore scenarios involving communication and negotiation more naturally and efficiently.
 
@@ -33,6 +34,10 @@ The following deliverables will be achieved over the course of the summer:
 
 4. **Chain-of-Thought (CoT) Integration**:
     - Implement CoT reasoning to allow agents to break down complex decisions into step-by-step reasoning, enhancing decision-making.
+
+5. **Forum Feature for Agent Communication**:
+    - Implement a forum system where agents can post about their actions, results, and insights.
+    - Enable inter-agent discussions to enhance collaborative decision-making.
 
 5. **Testing and Documentation**:
     - Provide unit tests for each module.
@@ -56,19 +61,24 @@ The following deliverables will be achieved over the course of the summer:
 - Implement **CoT (Chain-of-Thought)** reasoning to help agents perform complex tasks through reasoning and justifying their choices step by step.
 - Test and debug CoT functionality for various decision-making scenarios (e.g., negotiation, cooperation).
 
-### **Week 7-8: Memory System Implementation**
+### **Week 7-8: CoT Reasoning Integration**
+
+- Implement **CoT (Chain-of-Thought)** reasoning to help agents perform complex tasks through reasoning and justifying their choices step by step.
+- Test and debug CoT functionality for various decision-making scenarios (e.g., negotiation, cooperation).
+
+### **Week 9-10: Memory System Implementation**
 
 - Develop and test the **Memory Module**, enabling agents to store past actions and learn from them.
 - Integrate memory with decision-making logic for reinforcement learning.
 - Test how the memory system interacts with agent behaviors and their decisions.
 
-### **Week 9-10: Final Testing and Debugging**
+### **Week 11-12: Final Testing and Debugging**
 
 - Conduct integration testing for all modules (API, memory, decision-making, CoT).
 - Test the full agent pipeline: agent creation → memory management → decision-making → action selection.
 - Fix any bugs and ensure the system is robust and flexible.
 
-### **Week 11-12: Documentation and Final Submission**
+### **Week 13-14: Documentation and Final Submission**
 
 - **Write comprehensive documentation** for the entire framework:
   - User guides for building LLM-powered agents.
@@ -90,11 +100,15 @@ The **Personality Module** introduces biases or preferences into the decision-ma
 ### **Chain-of-Thought (CoT) Reasoning**:
 CoT reasoning allows agents to break down complex decisions into logical steps. This enables the agent to **reason through** its decision-making, improving transparency and explainability. The **CoT Module** will allow users to enable step-by-step reasoning for their agents.
 
+### **Forum Feature for Agent Communication**:
+Allows agents to post about their tasks, results, and insights, promoting inter-agent discussion and collaboration. Enables dynamic discussions to enhance multi-agent interactions in decision-making.
+
 
 ## Expected Outcomes
 - LLM-powered agents with customizable behavior and decision-making.
 - A modular framework for creating agents, enabling rapid experimentation.
 - Improved decision-making via Chain-of-Thought reasoning and memory integration.
+- An interactive forum system for agents to share insights, enhancing collaboration.
 - Comprehensive documentation for easy adoption and integration by the research community.
 - Scientific Contribution: The project will contribute to the growing body of work on LLM-based agent modeling and may lead to a publication in relevant journals.
 
