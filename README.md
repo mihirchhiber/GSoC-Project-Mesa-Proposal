@@ -102,11 +102,15 @@ My initial code experiments have been instrumental in shaping the Mesa-LLM propo
 
 - **Bridging Theory with Practice**: The process of embedding LLMs into Mesa agents not only validated the concept but also highlighted potential challenges and opportunities—such as ensuring coherent personality-driven responses and managing the agent’s memory of past actions. These practical learnings will guide the development of more sophisticated modules, like the Memory and Chain-of-Thought reasoning systems outlined in the proposal.
 
-![Alt text](/screenshots/screenshot1.jpg?raw=true "LLM Agents thinking and making decisions of buying, selling or holding during each step")
+<p align="center">
+![Alt text](screenshots/screenshot1.png?raw=true "LLM Agents thinking and making decisions of buying, selling or holding during each step")
+
 LLM Agents thinking and making decisions of buying, selling or holding during each step
 
-![Alt text](/screenshots/screenshot2.jpg?raw=true "LLM Agents final holdings after 40 steps of trading")
+![Alt text](screenshots/screenshot2.png?raw=true "LLM Agents final holdings after 40 steps of trading")
+
 LLM Agents final holdings after 40 steps of trading
+</p>
 
 ## Technical Details
 
