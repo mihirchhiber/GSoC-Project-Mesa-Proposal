@@ -45,9 +45,9 @@ The following deliverables will be achieved over the course of the summer:
 
 ## Timeline
 
-### **Week 1-2: API Development and Agent Creation**
+### **Week 1-2: Task Planning with Mentor and Agent Creation**
 
-- Develop the foundational **API** for defining agents and their actions.
+- Review project requirements and establish a timeline with your mentor.
 - Integrate LLM APIs (e.g., OpenAI, Hugging Face) for basic decision-making.
 - Implement a basic agent creation process, allowing users to define actions and context.
 
@@ -85,6 +85,28 @@ The following deliverables will be achieved over the course of the summer:
   - Developer documentation for extending the framework.
   - Tutorials and example notebooks.
 - Set up **CI/CD pipelines** for continuous integration and testing.
+
+## Code Exploration & Insights
+
+My initial code experiments have been instrumental in shaping the Mesa-LLM proposal, and they illustrate several key points:
+
+### **Practical Integration of Mesa and LLMs**
+- **Agent-Based Modeling in Action**: The code leverages Mesa’s agent-based framework to create a dynamic simulation environment. By defining an **LLMAgent** class, I demonstrated how agents can be enriched with personality traits and LLM-powered decision-making. This practical implementation underscores the flexibility of Mesa, showing that it can serve as a robust foundation for integrating advanced AI components.
+
+- **LLM-Driven Decision Making**: Using LangChain’s **OllamaLLM**, the agents are capable of invoking an LLM to guide their actions (e.g., buying, selling, or holding stocks). This integration showcases how LLMs can facilitate more nuanced and context-aware decision-making in simulated agents—a central theme of my proposal.
+
+### **Insights Gained**
+- **Understanding Mesa’s Extensibility**: Working with Mesa has revealed its highly modular structure, which allows for seamless integration of new components like a decision-making module or a memory system. This insight is crucial for the proposed project, where modularity is key to enabling rapid experimentation with different agent behaviors.
+
+- **Harnessing the Power of LLMs**: The experiment provided hands-on experience in incorporating LLM APIs into agent-based models. By leveraging LLM responses to simulate realistic economic decisions (such as stock trading), I gained a deeper understanding of how language models can be used to replicate human-like reasoning and dynamic decision-making.
+
+- **Bridging Theory with Practice**: The process of embedding LLMs into Mesa agents not only validated the concept but also highlighted potential challenges and opportunities—such as ensuring coherent personality-driven responses and managing the agent’s memory of past actions. These practical learnings will guide the development of more sophisticated modules, like the Memory and Chain-of-Thought reasoning systems outlined in the proposal.
+
+![Alt text](/screenshots/screenshot1.jpg?raw=true "LLM Agents thinking and making decisions of buying, selling or holding during each step")
+LLM Agents thinking and making decisions of buying, selling or holding during each step
+
+![Alt text](/screenshots/screenshot2.jpg?raw=true "LLM Agents final holdings after 40 steps of trading")
+LLM Agents final holdings after 40 steps of trading
 
 ## Technical Details
 
